@@ -52,8 +52,8 @@ public class ScheduleFlights extends HttpServlet {
         Integer to = null;
         Integer planeModel = null;
         Date departDate = null;
-        Integer hours = null;
-        Integer minutes = null;
+        Integer hours;
+        Integer minutes;
 
         if (fromString != null) {
             from = Integer.parseInt(fromString);
